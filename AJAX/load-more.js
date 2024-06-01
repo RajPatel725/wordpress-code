@@ -10,6 +10,7 @@ jQuery('#load_more_button').on('click', function () {
         data: {
             paged: currentPage,
             action: 'load_more_action',
+            'nonce': ajax_form.ajax_nonce,
         },
         success: function(data) {
             jQuery('#load_more').append(data);

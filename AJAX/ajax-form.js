@@ -10,6 +10,7 @@ jQuery('#create_post_form').submit(function(e){
         data:{
             'title': title,
             'post_content': details,
+            'nonce': ajax_form.ajax_nonce,
             'action': 'send_post_data'
         },
         success: function(data) {
