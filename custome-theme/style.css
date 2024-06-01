@@ -1,0 +1,112 @@
+/*
+Theme Name: Your Child Theme Name
+Theme URI: http://example.com/
+Description: Your child theme description.
+Author: Your Name
+Author URI: http://example.com/
+Template: creatch
+Version: 1.0
+*/
+
+/* Reset and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Header styles */
+#site-header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.site-description {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Navigation styles */
+.main-navigation {
+    margin-top: 20px;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 10px;
+}
+
+.main-navigation a:hover {
+    background-color: #ddd;
+}
+
+/* Content styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.entry-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.entry-content {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+#site-footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-info p {
+    margin: 0;
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-menu a {
+    display: block;
+    padding: 5px;
+}
+
+.footer-menu a:hover {
+    background-color: #ddd;
+}
